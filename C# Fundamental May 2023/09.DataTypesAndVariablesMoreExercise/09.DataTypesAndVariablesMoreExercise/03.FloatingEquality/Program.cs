@@ -4,13 +4,14 @@
     {
         static void Main(string[] args)
         {
-            string number1 = Console.ReadLine();
-            string number2 = Console.ReadLine();
+            double number1 = double.Parse(Console.ReadLine());
+            double number2 = double.Parse(Console.ReadLine());
 
-            string.Format(number1, 0.000000);
-            string.Format(number2, 0.000000);
+            double diff = Math.Abs(number1 - number2);
 
-            if (number1 == number2)
+            bool areEqual = diff <= 0.000001;
+
+            if (areEqual)
             {
                 Console.WriteLine("True");
             }

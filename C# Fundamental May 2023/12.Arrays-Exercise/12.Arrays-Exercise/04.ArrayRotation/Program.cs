@@ -9,7 +9,7 @@
                 .Select(int.Parse)
                 .ToArray();
             int rotationCount = int.Parse(Console.ReadLine());
-                int[] rotatedNumbers = new int[numbers.Length];
+            int[] rotatedNumbers = new int[numbers.Length];
 
             for (int i = 0; i < rotationCount; i++)
             {
@@ -19,10 +19,12 @@
                     {
                         rotatedNumbers[j] = numbers[0];
                     }
+
                     else
                     {
                         rotatedNumbers[j] = numbers[j + 1];
                     }
+
                 }
                 rotatedNumbers.CopyTo(numbers, 0);
             }

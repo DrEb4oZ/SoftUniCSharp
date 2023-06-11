@@ -32,6 +32,7 @@
                     }
                 }
             }
+
             Console.WriteLine(string.Join(" ", wagons));
         }
     }

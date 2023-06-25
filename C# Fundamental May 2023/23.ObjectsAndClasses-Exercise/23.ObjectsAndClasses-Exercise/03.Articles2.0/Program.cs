@@ -17,9 +17,10 @@ namespace _02.Articles
                 Articles currentArticle = new Articles(title, content, author);
                 articles.Add(currentArticle);
             }
+
             foreach (Articles article in articles)
             {
-            Console.WriteLine(article.PrintResult());
+                Console.WriteLine(article.PrintResult());
             }
         }
     }

@@ -48,7 +48,7 @@ namespace _01.ActivationKeys
             if (lowerOrUpper == "Upper")
             {
                 string temp = activationKey.Substring(startIndex, endIndex - startIndex).ToUpper();
-                activationKey = activationKey.Replace(activationKey.Substring(startIndex, endIndex - startIndex), temp);
+                activationKey = activationKey.Replace(activationKey.Substring(startIndex, endIndex - startIndex), temp);  // this isnt right because it will replace all occurances of the string in the input not only the one between the given indexes. it gives 100/100 because there is no check for case like this!
                 Console.WriteLine(activationKey);
                 return activationKey;
             }
@@ -56,7 +56,7 @@ namespace _01.ActivationKeys
             else
             {
                 string temp = activationKey.Substring(startIndex, endIndex - startIndex).ToLower();
-                activationKey = activationKey.Replace(activationKey.Substring(startIndex, endIndex - startIndex), temp);
+                activationKey = activationKey.Replace(activationKey.Substring(startIndex, endIndex - startIndex), temp); // this isnt right because it will replace all occurances of the string in the input not only the one between the given indexes. it gives 100/100 because there is no check for case like this!
                 Console.WriteLine(activationKey);
                 return activationKey;
             }

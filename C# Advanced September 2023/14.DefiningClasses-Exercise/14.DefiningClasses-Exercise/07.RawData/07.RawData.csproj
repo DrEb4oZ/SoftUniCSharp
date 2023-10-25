@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>RawData</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>E:\SoftUniC#\C# Advanced September 2023\14.DefiningClasses-Exercise\14.DefiningClasses-Exercise\07.RawData\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>E:\SoftUniC#\C# Advanced September 2023\14.DefiningClasses-Exercise\14.DefiningClasses-Exercise\07.RawData\obj</BaseIntermediateOutputPath>
+  </PropertyGroup>
+
+</Project>

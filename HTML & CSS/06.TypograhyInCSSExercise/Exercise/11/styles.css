@@ -1,0 +1,66 @@
+html{
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body, article, table, ul, ol{
+    font:inherit;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+
+.ul-type-square{
+    list-style-type: square;
+}
+
+.ul-type-disc{
+    list-style-type: disc;
+}
+
+.ul-type-circle{
+    list-style-type: circle;
+}
+
+.ol-type-1{
+    list-style-type: lower-latin;
+}
+
+blockquote{
+    border-left: 3px solid;
+    padding: 0.1em 2em;
+    border-left-color: rgb(221, 221, 221);
+    font-style: italic;
+}
+p.publisher{
+    text-align: right;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid burlywood;
+    border-collapse: collapse;
+    
+}
+
+
+
+th{
+   background-color: burlywood; 
+   
+}
+
+th, td{
+    padding-left: 0.5em;
+    border: 1px solid burlywood;
+}
+
+
+tr:nth-child(odd){
+    background-color: bisque;
+}
+
+tr:nth-child(even){
+    background-color: antiquewhite;
+}

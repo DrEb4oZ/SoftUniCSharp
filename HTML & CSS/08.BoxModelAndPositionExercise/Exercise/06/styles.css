@@ -1,0 +1,42 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    margin: 2em;
+}
+
+header, main{
+    font: inherit;
+}
+
+header{
+    color: #000;
+    border-bottom: 2px solid gray;
+}
+
+header h1,  
+header nav{
+    display: inline-block;
+}
+
+nav ul{
+    padding: 0 0 0 4;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 1em;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+    padding: 0.3em;
+}
+
+p{
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}

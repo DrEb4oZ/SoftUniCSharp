@@ -1,0 +1,17 @@
+body{
+    padding: 0.2em;
+}
+.site{
+    max-width: 66ch;
+    margin: 0 auto;
+    text-indent: 2em;
+}
+
+.site-main p{
+    padding-bottom: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 1em;
+}
+

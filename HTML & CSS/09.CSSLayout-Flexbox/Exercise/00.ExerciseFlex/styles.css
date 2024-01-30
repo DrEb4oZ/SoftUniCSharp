@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100vh;
+}
+
+p{
+    padding: 1em;
+    background-color: rgb(250, 250, 131);
+}
+
+p:nth-child(1){
+    color: red;
+    flex-basis: 10em;
+}
+
+p:nth-child(3){
+    color: blue;
+    flex-basis: 60ch;
+}
+
+.site{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}

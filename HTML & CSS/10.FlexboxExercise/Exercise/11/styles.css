@@ -28,14 +28,6 @@ h2{
     margin: 0 auto;
 }
 
-.cards-layout.flex{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 .cards-layout.masonry{
     display: flex;
     flex-direction: column;
@@ -45,6 +37,16 @@ h2{
     margin: 0 auto;
     max-height: 1500px;
 }
+
+
+.cards-layout.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 
 .card{
     width: 250px;

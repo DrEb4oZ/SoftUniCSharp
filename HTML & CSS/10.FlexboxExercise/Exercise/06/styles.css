@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body, ul, li{
+    display: flex;
+}
+
+.gallery{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.gallery ul{
+    /* justify-content: space-between; */
+    gap: 2em;
+    flex-wrap: wrap;
+
+}
+
+.gallery li{
+    list-style: none outside;
+    border: 5px solid black;
+    padding: 1em 0.5em;
+    flex: 0 0 250px;
+    background-color: white;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.4),
+    0 0 0.3em 0.2em rgb(0, 0, 0, 0.4) inset;
+    align-items: center;
+}

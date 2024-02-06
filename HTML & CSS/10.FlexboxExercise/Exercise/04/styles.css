@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+}
+
+div.container{
+    display: flex;
+    max-width: 65vw;
+   margin: 0 auto;
+}
+
+div.container section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.week span,
+.notes span{
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    flex-grow: 1;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.week span:nth-child(1),
+.week span:nth-child(7),
+.notes span:nth-child(1){
+    flex: 1 0 100%;
+}
+
+.notes{
+    text-transform: uppercase;
+}

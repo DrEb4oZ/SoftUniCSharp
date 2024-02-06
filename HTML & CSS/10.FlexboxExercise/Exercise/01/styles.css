@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #eee;
+    flex-wrap: wrap;
+    padding: 5rem;
+    height: 100vh;
+    gap: 1.5rem;
+}
+
+header,
+main,
+aside,
+footer{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    color: #000;
+    text-transform: uppercase;
+    box-shadow: 0 0 0.5rem 0.1rem rgb(0, 0, 0, 0.5);
+}
+
+header,
+footer{
+    flex-basis: 100%;
+}
+main{
+    flex: 8 1 40rem;
+}
+
+aside{
+    flex: 2 1 20rem;   
+}

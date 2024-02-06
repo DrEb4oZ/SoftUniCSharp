@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding-bottom: 1em;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header p{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    margin: 0em 1em;
+}
+
+h1,h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+
+main p{
+    padding-bottom: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}

@@ -1,0 +1,43 @@
+@media (max-width: 600px){
+    
+    .tm-header-inner{
+        padding: 0;
+    }
+
+    .tm-description-figure {
+        text-align: center;
+        max-width: 600px;
+    }
+    .tm-gallery-page{
+        margin: 0 0;
+    }
+
+    .col-md-6{
+        max-width: 100px;
+    }
+
+    .tm-cta-section {
+        margin: 0 auto;
+        max-width: 600px;
+        display: flex;
+      }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .img-fluid {
+        max-width: 330px;
+        height: auto;
+      }
+
+      figure {
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+ 
+}

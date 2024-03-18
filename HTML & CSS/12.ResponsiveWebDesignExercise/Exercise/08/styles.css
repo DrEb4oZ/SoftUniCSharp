@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header,nav,footer{
+  flex-basis: 100%;
+}
+
+aside{
+  flex: 0 1 25%;
+}
+
+main{
+  flex: 1 0 75%;
+}
+body {
+  font-family: sans-serif;
+}
+
+header { 
+  background-color: rgb(34, 190, 157);
+  color: white;
+  text-align: center;
+  padding: 4em;
+}
+
+nav {
+  background-color: black;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  padding: 1em;
+}
+
+aside {
+  background-color: #ecebeb;
+  padding: 1.5em;
+}
+
+main {
+  background-color: white;
+  padding: 1.5em;
+}
+
+footer{
+  background-color: #d1d1d1;
+  text-align: center;
+  padding: 1.5em;
+}
+
+
+@media (max-width: 800px){
+  header h1{
+    color: red;
+  }
+}

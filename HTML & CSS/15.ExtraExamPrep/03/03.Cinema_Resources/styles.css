@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font: 20px/1.5 Ubuntu;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    font:inherit;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em 2.9em 2em;
+    text-transform: uppercase;
+}
+
+.site-header .header-logo{
+    display: flex;
+}
+
+.site-header .header-logo a{
+    border-right: 1px solid gray;
+    font-size: 2.40em;
+    color: black;
+    padding-right: 1.3em;
+    text-decoration: none;
+}
+.site-header .header-logo p{
+    color: gray;
+    align-self: flex-end;
+    padding-left: 2.1em;
+
+}
+
+.site-header nav ul{
+    list-style: none outside;
+    display: flex;
+}
+
+.site-header nav li{
+    padding: 0.1em;
+}
+
+.site-header nav li a{
+    text-decoration: none;
+    background-color: #ECECEC;
+    padding: 1.4em;
+    color: #766D70;
+    display: block;
+}
+
+.site-header nav li:first-child a{
+    background-color: #56DBB1;
+    color: black;
+}
+
+.content-1{
+    background-color: #56DBB1;
+    text-align: center;
+    padding: 4.75em 11em 4.5em 11em;
+    font-weight:700;
+}
+
+.content-2{
+    display: flex;
+    gap: 3em;
+    padding: 7.5em 9em 7.5em 9em;
+    background-color: #353434;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.column h5{
+    color: white;
+    padding: 1.5em;
+    
+}
+
+.column p{
+    color: rgb(87, 87, 87);
+    padding: 1.5em;
+    font-size: 0.9em;
+    border-top: 2.5px solid rgb(255, 255, 255);
+}
+
+.column i{
+    background-color: #56DBB1;
+    color: white;
+    padding: 0.5em;
+    font-size: 60px
+}
+
+.content-3{
+    text-align: center;
+    padding: 5em;
+}
+
+.content-3 h2{
+    font-size: 2em;
+    color: rgb(83, 83, 83);
+}
+
+.content-3 p{
+    color: rgb(161, 161, 161);
+    margin-bottom: 2em;
+}
+
+.content-3 a{
+    background-color: #974D1B;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+.content-4{
+    display: flex;
+    background-color: #353434;
+    padding: 9em 9em 7.5em 9em;
+}
+
+.content-4 h3{
+    font-size: 1.6em;
+    color: white;
+}
+
+.column p{
+    border: none;
+}
+
+.site-footer{
+    background-color: rgb(27, 151, 114);
+    padding: 4em;
+    color: rgb(88, 226, 185);
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.text-color-white{
+    color: white;
+}

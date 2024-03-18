@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.3em;
+}
+
+/* variant one, without .container */
+
+/* @media (min-width: 500px){
+    body{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    header, footer{
+        flex: 100%
+    }
+    
+    aside{
+        flex: 0 0 auto;
+    }
+    
+    main{
+        flex: 1 0 70%
+    }
+} */
+
+h2{
+    margin-bottom: 0.5em;
+}
+
+header, 
+aside, 
+main, 
+footer{
+    background-color: #B5D8FF;
+    padding: 1em;
+    line-height: 1;
+    border-radius: 0.3em;
+}
+
+aside{
+    line-height: 1.5;
+}
+
+aside ul li{
+    list-style-type: none;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #562881;
+}
+
+main ul li{
+    list-style: inside;
+    margin-left: 1em;
+}
+
+footer{
+    padding: 0.5em 1em;
+}
+
+
+/* variant two, with */
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+@media (min-width: 500px){
+    .container{
+        flex-direction: row;
+    }
+    
+    aside{
+        flex: 1 0 auto;
+    }
+    
+    main{
+        flex: 1 0 60%
+    }
+    
+}

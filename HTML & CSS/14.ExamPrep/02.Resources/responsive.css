@@ -1,0 +1,41 @@
+@media (max-width: 600px){
+    .navbar-link{
+        display: none;
+    }
+
+    .home-cards-container{
+        max-width: 350px;
+    }
+
+    .home-full-width-banner{
+        flex-direction: column;
+    }
+    .home-left4{
+        padding: 2em;
+    }
+    .home-text30{
+        width: auto;
+    }
+
+    .home-image6{
+        width: 100%;
+    }
+  
+
+    .section{
+        flex-direction: row;
+    }
+
+    .home-footer1{
+        flex-direction: column;
+    }
+
+    .home-container09{
+        order: 10;
+    }
+
+    .home-links-container{
+        order: 1;
+        flex-direction: column;
+    }
+}

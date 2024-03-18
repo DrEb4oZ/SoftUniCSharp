@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font: 14px/1.5 sans-serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+img{
+    width: 105px;
+}
+
+h1,h2,h3{
+    font-family: serif;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    padding-bottom: 1em;
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+
+
+
+.site{
+    width: 1200px;
+}
+
+.site-header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url(/03/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-header nav ul{
+    list-style-type: none;
+    padding: 2em;
+}
+
+.top-header nav ul li{
+    display: inline;
+}
+
+.top-header nav ul li a{
+    text-decoration: none;
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+.bottom-header{
+    padding: 3em 0 13em 8em;
+    width: 600px;
+}
+
+.bottom-header h1:last-of-type{
+    padding-bottom: 1em;
+}
+
+.articles{
+    display: flex;
+    gap: 2em;
+    padding: 4em;
+    line-height: 1.5;
+    border-bottom: 2px solid gray;
+    justify-content: center;
+}
+
+.articles article{
+    width: 520px;
+}
+
+.articles p{
+    padding-bottom: 2em;
+}
+
+.articles footer p{
+    display: inline-block;
+    border: 1px solid goldenrod;
+    padding: 0.3em 1em;
+    color: goldenrod;
+}
+
+
+.sponsors-partners{
+    padding: 4em;
+    text-align: center;
+    width: 1040px;
+    margin: auto;
+}
+
+
+.sponsors-partners h2{
+    color: goldenrod;
+}
+
+
+
+.sponsor-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    padding: 5em;
+}
+
+.sponsor-img{
+    background-color: lightgray;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+
+.site-footer{
+    background-color: rgb(23, 23, 32);
+    color: white;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+
+
+.site-footer ul{
+    list-style-type: none;
+}
+
+.site-footer ul li a{
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    border-bottom: 1px solid gray;
+}
+
+.bottom-footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
